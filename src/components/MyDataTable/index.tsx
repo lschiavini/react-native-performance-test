@@ -40,7 +40,7 @@ interface DataTableRowProps {
 const MyDataTableRow = (dataRow: DataTableRowProps): JSX.Element => {
 	const { rowData, enableColor } = dataRow
 	const {first} = rowData
-	const lineRequestFrequencyHZ = 10
+	const lineRequestFrequencyHZ = 60
 
 	const [displayValue, setDisplayValue] = useState({
 		second: 0,
